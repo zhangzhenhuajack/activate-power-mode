@@ -12,3 +12,9 @@ activate-power-mode for IDEA
 >-> add a new Plugin Configuration <br>
 >-> 在 Use classpath of module 选择 activate-power-mode <br>
 >-> Apply <br>
+
+注意，编译的时候jdk1.8.
+找到 /Applications/IntelliJ IDEA XXX.app/Contents/Info.plist file. 修改 JVMVersion 从 1.7* 到 1.8*。
+  <key>JVMVersion</key>
+  <string>1.8*</string>
+
